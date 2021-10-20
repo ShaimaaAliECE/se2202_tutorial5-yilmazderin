@@ -2,7 +2,7 @@ let nextPlayer = 'X'; // takes a value of either 'X' or 'O' according to the gam
 
 //initialize the game
 var button1 = document.createElement('button');
-button1.innerText = 'Click to Start'
+button1.innerText = 'Start'
 document.getElementById('game-over-lbl').appendChild(button1);
 button1.addEventListener('click', (button1) => {initialEvent.target.hidden = true;});
 
