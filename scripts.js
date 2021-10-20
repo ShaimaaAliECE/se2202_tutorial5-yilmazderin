@@ -9,7 +9,7 @@ button1.addEventListener('click', (button1) => {initialEvent.target.hidden = tru
 // use the value stored in the nextPlayer variable to indicate who the next player is
 let player1 = document.querySelector('b');
 let player2 = 'Next Player'
-playerA.innerText = playerB;
+player1.innerText = player2;
 
 //This call will create the buttons needed for the gameboard.
 createGameBoard()
