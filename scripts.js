@@ -18,7 +18,7 @@ function createGameBoard()
 {
     // Programatically add a button with square brackets enclosing an empty space to each cell in the gameboard
    
-    for (let i = 0; i<=8; i++) {
+    for (let i = 0; i<9; i++) {
 
         let cell = 'c' + (i+1);
         var button2 = document.createElement('button');
@@ -55,7 +55,7 @@ function takeCell(event)
 
     event.target.disabled = 'disabled';
     // Check if the game is over
-    if (isGameOver() === true)
+    if (isGameOver())
     {
         // let the lable with the id 'game-over-lbl' display the words 'Game Over' inside <h1> element
         let lable = document.getElementById('game-over-lbl')
